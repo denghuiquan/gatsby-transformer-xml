@@ -30,7 +30,7 @@ async function onCreateNode (
     Array.isArray(objs)
       ? objs.forEach(async item => {
           item.id = item.id || item['$']?.id || randomUUID()
-
+          delete item.$
           await createNode(createNodeObject(item))
         })
       : await createNode(createNodeObject(objs))

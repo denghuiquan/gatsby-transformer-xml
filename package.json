@@ -1,0 +1,17 @@
+{
+  "name": "@huiquan.d/gatsby-transformer-xml",
+  "version": "0.0.1",
+  "description": "gatsby,plugins,xml,transformer",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "plugins",
+    "xml",
+    "transformer"
+  ],
+  "author": "denghuiquan <denghuiquan@foxmail.com>",
+  "license": "MIT"
+}
